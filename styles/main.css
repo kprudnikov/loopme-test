@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-size, .fluid-size {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.fixed-size {
+  height: 500px;
+  width: 800px;
+  outline: 1px solid #bde;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.fluid-size {
+  outline: 1px solid #cda;
+}
